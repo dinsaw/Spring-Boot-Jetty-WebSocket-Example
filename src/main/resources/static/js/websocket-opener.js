@@ -11,7 +11,7 @@ ws.onopen = function() {
 
 ws.onmessage = function(evt) {
     var newDiv = document.createElement("div");
-    newDiv.innerHTML = evt.data;
+    newDiv.innerHTML = "> " + evt.data;
 
     var holder = document.getElementById("holder");
     holder.appendChild(newDiv);

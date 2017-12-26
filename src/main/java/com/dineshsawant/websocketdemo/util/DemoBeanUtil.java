@@ -1,15 +1,14 @@
-package com.dineshsawant.websocketdemo.beanutil;
-
-import org.springframework.context.ApplicationContextAware;
+package com.dineshsawant.websocketdemo.util;
 
 import com.dineshsawant.websocketdemo.service.RandomNameService;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 
 /**
  * Created by dnsh on 25/12/17.
  */
-public class RandomNameBeanUtil implements ApplicationContextAware {
+public class DemoBeanUtil implements ApplicationContextAware {
     private static ApplicationContext appCxt;
 
     @Override

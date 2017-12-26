@@ -1,7 +1,7 @@
 package com.dineshsawant.websocketdemo.config;
 
-import com.dineshsawant.websocketdemo.beanutil.RandomNameBeanUtil;
 import com.dineshsawant.websocketdemo.servlet.RandomNameServlet;
+import com.dineshsawant.websocketdemo.util.DemoBeanUtil;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class AppConfig {
     }
 
     @Bean
-    public RandomNameBeanUtil randomNameBeanUtil(){
-        return new RandomNameBeanUtil();
+    public DemoBeanUtil randomNameBeanUtil() {
+        return new DemoBeanUtil();
     }
 }
