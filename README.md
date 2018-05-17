@@ -1,5 +1,7 @@
 # Spring-Boot-Jetty-WebSocket-Example
 [![Build Status](https://travis-ci.org/dinsaw/Spring-Boot-Jetty-WebSocket-Example.svg?branch=master)](https://travis-ci.org/dinsaw/Spring-Boot-Jetty-WebSocket-Example)
+[![codecov](https://codecov.io/gh/dinsaw/Spring-Boot-Jetty-WebSocket-Example/branch/master/graph/badge.svg)](https://codecov.io/gh/dinsaw/Spring-Boot-Jetty-WebSocket-Example)
+
 
 
 This is basic example of how to configure Jetty WebSocket with Spring Boot. 
